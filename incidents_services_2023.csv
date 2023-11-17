@@ -1,0 +1,7 @@
+id, titre, description, service, date
+1, "Panne de moteur", "Le moteur de la machine X s'est arrêté subitement pendant l'opération.", "Production", "2023-11-17"
+2, "Fuite hydraulique", "Une fuite a été détectée dans le système hydraulique de la presse Y.", "Maintenance", "2023-11-16"
+3, "Erreur de logiciel", "Le logiciel de contrôle a affiché un message d'erreur inconnu.", "IT", "2023-11-15"
+4, "Coupure de courant", "Une coupure de courant a interrompu les opérations pendant plusieurs heures.", "Facilities", "2023-11-14"
+5, "Incident de sécurité", "Un employé s'est blessé en travaillant sur la chaîne de montage.", "Sécurité", "2022-11-13"
+6, "Incident de sécurité", "Un employé s'est blessé en travaillant sur la chaîne de montage.", "Informatique", "2022-11-13"
