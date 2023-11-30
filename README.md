@@ -151,7 +151,7 @@ Créez une base de données MySQL nommée DB_HOPITAL, qui contient trois tables 
         dataset3.show();
 ```
 
-![Description de l'image](/sparkSql/ConsPar Med.PNG)
+![Description de l'image](/sparkSql/ConsParMed.PNG)
 
 3. ***Afficher pour chaque médecin, le nombre de patients qu’il a assisté***
 
