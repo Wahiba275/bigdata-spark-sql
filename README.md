@@ -1,12 +1,28 @@
 # bigdata-spark-sql
+# Table des matières
+
+1. 🚀 [Spark SQL](#spark-sql) 
+    - 📚 [Définition](#définition)
+    - 🔧 [Caractéristiques Principales](#caractéristiques-principales) 
+    - 🎯 [Cas d'utilisation](#cas-dutilisation) 
+
+2. 🛠️ [Dépendances Spark dans le fichier pom.xml (Maven)](#dépendances-spark-dans-le-fichier-pomxml) 
+
+3. 📱 [Applications](#applications) 
+    - 🚨 [Analyser les incidents](#analyser-les-incidents)
+    - ⚕️ [Consultation médicale](#Consultationmédicale) 
+
+4. 🌟 [Conclusion](#conclusion)
 
 
-# Spark SQL
-## Définition
+
+
+# 🚀Spark SQL
+## 📚Définition
 
 Spark SQL est un module Apache Spark conçu pour le traitement et l'analyse de données structurées à l'aide du langage SQL. Il offre une interface unifiée permettant d'interagir avec des données structurées et semi-structurées, combinant les avantages du traitement distribué de Spark avec la familiarité du langage SQL pour l'analyse de données.
 
-## Caractéristiques Principales
+## 🔧Caractéristiques Principales
 
 1. **Traitement Distribué :** Spark SQL s'intègre parfaitement avec le modèle de traitement distribué de Spark, facilitant la gestion efficace de grands ensembles de données répartis sur un cluster.
 
@@ -20,7 +36,7 @@ Spark SQL est un module Apache Spark conçu pour le traitement et l'analyse de d
 
 6. **APIs DataFrame et Dataset :** En plus des requêtes SQL, Spark SQL offre des APIs basées sur les concepts de DataFrame et de Dataset, permettant une expression programmatique des transformations de données dans divers langages.
 
-## Cas d'utilisation
+## 🎯Cas d'utilisation
 
 1. **Analyse de Données Structurées :** Spark SQL est idéal pour l'analyse de grands ensembles de données structurées, permettant aux utilisateurs de tirer parti du langage SQL pour obtenir des insights.
 
@@ -28,7 +44,7 @@ Spark SQL est un module Apache Spark conçu pour le traitement et l'analyse de d
 
 3. **Intégration avec des Outils BI :** Grâce à son support SQL standard, Spark SQL peut être intégré avec des outils de business intelligence (BI) tels que Tableau, Power BI, etc., pour des analyses interactives.
 
-# Dépendances Spark dans le fichier pom.xml (Maven)
+# 🛠️Dépendances Spark dans le fichier pom.xml (Maven)
 
 Ajouter cette dépendance dans votre fichier pom.xml
 ```
@@ -43,9 +59,9 @@ Ajouter cette dépendance dans votre fichier pom.xml
          <version>3.4.1</version>
      </dependency>
 ```
-# Applications
+# 📱Applications
 
-## Analyser les incidents 
+## 🚨Analyser les incidents 
 Nous avons l'intention de créer une application Spark destinée à une entreprise industrielle chargée du traitement des incidents de chaque service.
 
 Les données relatives aux incidents sont stockées dans un fichier au format CSV.
@@ -94,7 +110,7 @@ public class IncidentsAnalysis {
   
 ![Description de l'image](/sparkSql/incidentsCount.PNG)
 
-## Consultation Medicale
+## ⚕️Consultation médicale
 
 Créez une base de données MySQL nommée DB_HOPITAL, qui contient trois tables :
 1. **PATIENTS**
@@ -168,6 +184,6 @@ Créez une base de données MySQL nommée DB_HOPITAL, qui contient trois tables 
 
 ![Description de l'image](/sparkSql/NbrPatient.PNG)
 
-# Conclusion
+# 🌟Conclusion
 
 Spark SQL offre une solution puissante et polyvalente pour le traitement et l'analyse de données structurées dans des environnements distribués. Son intégration transparente avec le reste de l'écosystème Apache Spark, son support SQL, et ses fonctionnalités avancées en font un choix populaire pour les applications nécessitant une manipulation efficace de gros volumes de données structurées.
